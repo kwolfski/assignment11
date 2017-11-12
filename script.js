@@ -5,10 +5,13 @@ $(document).ready(function(){
         
     //Clicking on the H1 element in the header changes the background color of the header DIV
     
-    $("#header h1").click(function(){
-        $("#header").css("backgroundColor", "purple");
-    });
+$("#header h1").click(function(){
+    $("#header").css("backgroundColor", "purple");
+});
+    
+    // Change the text color of the first LI element in one of the sub-lists in the sidebar
 
+$("#sidebar_content_1 li a:first-child").css('color', 'magenta');
 
 
 });
