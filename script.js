@@ -13,6 +13,9 @@ $("#header h1").click(function(){
 
 $("#sidebar_content_1 li a:first").css('color', 'magenta');
 
+    // Move the position of the even “numbered” LI elements in one of the sub-lists in the sidebar to the right by 5 pixels
+
+$("#sidebar_content_2 li a:even").css('padding-left', '5px');
+
 
 });
-
