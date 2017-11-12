@@ -11,7 +11,7 @@ $("#header h1").click(function(){
     
     // Change the text color of the first LI element in one of the sub-lists in the sidebar
 
-$("#sidebar_content_1 li a:first-child").css('color', 'magenta');
+$("#sidebar_content_1 li a:first").css('color', 'magenta');
 
 
 });
