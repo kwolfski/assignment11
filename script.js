@@ -16,6 +16,13 @@ $("#sidebar_content_1 li a:first").css('color', 'magenta');
     // Move the position of the even “numbered” LI elements in one of the sub-lists in the sidebar to the right by 5 pixels
 
 $("#sidebar_content_2 li a:even").css('padding-left', '5px');
+    
+    //Clicking on one of the post titles in the main content area replaces the content of the content DIV (with the ID of “content”) with content you specify
+
+$("h2.title").click(function() {
+    $( "#content" ).replaceWith( "<h2>This is new content</h2>" );
+});
+    
 
 
 });
