@@ -26,9 +26,10 @@ $("h2.title").click(function() {
     //Clicking on one of the H2 elements in the sidebar toggles visibility of the list below it
 
 $( "#sidebar-content h2" ).click(function() {
-  $( "#sidebar-content li a" ).fadeOut( "slow", function() {
-    // Animation complete.
+  $( "#sidebar-content li a" ).fadeToggle( "slow", function() {
   });
 });
 
 });
+
+//Used animation code from API & W3C
