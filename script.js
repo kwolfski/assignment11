@@ -23,6 +23,12 @@ $("h2.title").click(function() {
     $( "#content" ).replaceWith( "<h2>This is new content</h2>" );
 });
     
+    //Clicking on one of the H2 elements in the sidebar toggles visibility of the list below it
 
+$( "#sidebar-content h2" ).click(function() {
+  $( "#sidebar-content li a" ).fadeOut( "slow", function() {
+    // Animation complete.
+  });
+});
 
 });
